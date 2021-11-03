@@ -1,0 +1,49 @@
+ALGORITMO 1
+
+-Apro www.amazon.it
+-Seleziono la barra di ricerca
+-Cerco “Lampada da tavolo particolare”:
+	SE la lampada è Prime:
+	-Acquista la Lampada
+	ALTRIMENTI
+	-Continua a cercare
+-Cerco “Bella Stilografica”:
+	SE la stilografica è < Budget
+	-Acquista Stilografica
+	ALTRIMENTI
+	-Continua a cercare
+-Cerco “Libro classico”
+SE 
+-il libro e’ disponibile lo acquisto
+
+
+ALGORITMO 2
+
+-Apro www.amazon.it
+-Seleziono “Filtro Amazon Prime”
+-Seleziono “Filtro data di consegna domani”
+-Seleziono “Filtro budget”
+
+-Vado su “Cerca”
+-Digito “Lampada da Tavolo”
+-FINCHÉ (ci sono prodotti nella ricerca){
+	SE (il prodotto è quello che cerco){
+		Acquista il prodotto
+		CHIUDI IL PROGRAMMA
+	}
+	Controllo il prodotto successivo nella ricerca
+}
+
+-Vado su “Cerca”
+-Digito “Stilografica”:
+-FINCHÉ (ci sono prodotti nella ricerca){
+	SE (la stilografica è bella){
+		Acquista il prodotto
+		CHIUDI IL PROGRAMMA
+}
+Controllo il prodotto successivo nella ricerca
+}	
+	
+-Vado su “Cerca”
+-Digito “Libro”
+-Acquisto un libro
